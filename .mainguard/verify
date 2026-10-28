@@ -1,0 +1,1 @@
+env MG_QUARANTINE=.mainguard/quarantine.txt bash .mainguard/suite.sh
