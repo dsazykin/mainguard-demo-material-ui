@@ -1,0 +1,7 @@
+"after each" hook: flushUnexpectedCalls for "accepts lazy"
+<Autocomplete /> prop: multiple should fail validation if a required field has a value
+<Autocomplete /> prop: multiple should fail validation if a required field has no value
+<Rating /> <form> integration submits the expected form data 1
+<Rating /> <form> integration submits the expected form data 2
+<Rating /> <form> integration submits the expected form data 3
+<Rating /> <form> integration submits the expected form data 4
