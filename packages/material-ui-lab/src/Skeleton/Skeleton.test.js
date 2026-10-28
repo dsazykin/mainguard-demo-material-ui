@@ -21,7 +21,7 @@ describe('<Skeleton />', () => {
 
   describeConformance(<Skeleton />, () => ({
     classes,
-    inheritComponent: 'div',
+    inheritComponent: 'span',
     mount,
     refInstanceof: window.HTMLDivElement,
   }));

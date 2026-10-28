@@ -8,7 +8,7 @@ export interface SkeletonTypeMap<P = {}, D extends React.ElementType = 'hr'> {
     variant?: 'text' | 'rect' | 'circle';
     width?: number | string;
   };
-  defaultComponent: 'div';
+  defaultComponent: 'span';
   classKey: SkeletonClassKey;
 }
 
