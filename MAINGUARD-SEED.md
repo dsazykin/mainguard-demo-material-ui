@@ -1,0 +1,1 @@
+This commit is the Mainguard demo's seed baseline: it lands through Mainguard's own queue before any agent starts, so the tip the agents work on was verified by Mainguard (docs/planning/verifier-demo.md section 4.1 in dsazykin/Mainguard).
