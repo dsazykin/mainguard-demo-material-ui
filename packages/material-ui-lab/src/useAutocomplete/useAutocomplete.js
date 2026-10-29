@@ -563,7 +563,7 @@ export default function useAutocomplete(props) {
     resetInputValue(event, newValue);
 
     handleValue(event, newValue, reason, { option });
-    if (!disableCloseOnSelect && (!multiple || !event || (!event.ctrlKey && !event.metaKey))) {
+    if (!disableCloseOnSelect && (!multiple || !event || (!event.ctrlKey && !event.metaKey && !event.shiftKey))) {
       handleClose(event, reason);
     }
 
