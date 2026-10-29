@@ -1,0 +1,3 @@
+# mui/material-ui: the unit tests sit beside the code under packages/ (named packages/material-ui until the rename, packages/mui-material after); the globs of test:unit find packages/**/*.test.{js,ts,tsx} (see NOTES.md)
+# --exit after {files}: suite.sh's file branch runs mocha without it, and at the 2020 and 2021 bases mocha then never quits after the last sealed test (the setup leaves a handle open, as the whole unit run's `--exit` notes)
+packages = bash .mainguard/suite.sh {files} --exit
