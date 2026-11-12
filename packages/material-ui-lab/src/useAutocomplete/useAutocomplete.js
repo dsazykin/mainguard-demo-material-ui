@@ -563,7 +563,8 @@ export default function useAutocomplete(props) {
     resetInputValue(event, newValue);
 
     handleValue(event, newValue, reason, { option });
-    if (!disableCloseOnSelect && !(event.ctrlKey || event.metaKey)) {
+    const isModifierClick = multiple && (event.ctrlKey || event.metaKey || event.shiftKey);
+    if (!disableCloseOnSelect && !isModifierClick) {
       handleClose(event, reason);
     }
 
